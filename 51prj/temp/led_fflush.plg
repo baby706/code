@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\BOSS\Desktop\51prj\temp\led_fflush.uvproj
+Project File Date:  02/18/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(9): warning C318: can't open file 'i2c.h'
+compiling temp.c...
+TEMP.C(15): error C141: syntax error near 'DSPORT'
+TEMP.C(33): error C141: syntax error near ')'
+TEMP.C(40): error C141: syntax error near 'data'
+TEMP.C(40): error C190: '&': not an lvalue
+TEMP.C(43): error C141: syntax error near 'data'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling temp.c...
+TEMP.C(60): warning C173: missing return-expression
+TEMP.C(50): warning C280: 'bi': unreferenced local variable
+TEMP.C(50): warning C280: 'byte': unreferenced local variable
+TEMP.C(60): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS18B20INIT?TEMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DS18B20WRITEBYTE?TEMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS18B20READBYTE?TEMP
+Program Size: data=19.0 xdata=0 code=652
+creating hex file from "led_fflush"...
+"led_fflush" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS18B20INIT?TEMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DS18B20WRITEBYTE?TEMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS18B20READBYTE?TEMP
+Program Size: data=19.0 xdata=0 code=652
+creating hex file from "led_fflush"...
+"led_fflush" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(53): error C202: 'DigDisplayData': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(53): error C202: 'DigDisplay': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(60): error C202: 'disp': undefined identifier
+MAIN.C(61): error C202: 'disp': undefined identifier
+MAIN.C(62): error C202: 'disp': undefined identifier
+MAIN.C(63): error C202: 'disp': undefined identifier
+MAIN.C(89): error C202: 'disp': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(53): error C202: 'disp': undefined identifier
+MAIN.C(60): error C202: 'disp': undefined identifier
+MAIN.C(61): error C202: 'disp': undefined identifier
+MAIN.C(62): error C202: 'disp': undefined identifier
+MAIN.C(63): error C202: 'disp': undefined identifier
+MAIN.C(89): error C202: 'disp': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(106): warning C209: '_datapros': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS18B20INIT?TEMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DS18B20WRITEBYTE?TEMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS18B20READBYTE?TEMP
+Program Size: data=23.0 xdata=0 code=1435
+creating hex file from "led_fflush"...
+"led_fflush" - 0 Error(s), 4 Warning(s).

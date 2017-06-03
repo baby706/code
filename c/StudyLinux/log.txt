@@ -1,0 +1,26 @@
+.DS_Store
+.DocumentRevisions-V100
+.Spotlight-V100
+.Trashes
+.file
+.fseventsd
+.vol
+Applications
+Library
+Network
+System
+Users
+Volumes
+bin
+cores
+dev
+etc
+home
+installer.failurerequests
+net
+private
+sbin
+tmp
+usr
+var
+2017年 2月22日 星期三 07时19分52秒 CST
