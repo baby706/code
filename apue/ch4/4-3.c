@@ -21,9 +21,9 @@ int main(int argc, char const *argv[])
 			ptr = "block special";
 		else if(S_ISFIFO(buf.st_mode))
 			ptr = "fifo";
-		else if(S_ISLINK(buf.st_mode))
+		else if(S_ISLNK(buf.st_mode))
 			ptr = "symbolic link";
-		else if(S_ISOCK(buf.st_mode))
+		else if(S_ISSOCK(buf.st_mode))
 			ptr = "socket";
 
 		else
