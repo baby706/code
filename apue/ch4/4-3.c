@@ -14,10 +14,12 @@ int main(int argc, char const *argv[])
 			continue;
 		}
 		if(S_ISREG(buf.st_mode))
-			ptr = "directory";
+			ptr = "regular";
 		else if(S_ISDIR(buf.st_mode))
-			ptr = "character special";
+			ptr = "diretory";
 		else if(S_ISCHR(buf.st_mode))
+			ptr = "character special";
+		else if(S_ISBLK(buf.st_mode))
 			ptr = "block special";
 		else if(S_ISFIFO(buf.st_mode))
 			ptr = "fifo";
