@@ -1,4 +1,5 @@
 #include "apue.h"
+#include "color.h"
 #include <fcntl.h>
 
 int main(int argc, char const *argv[])
@@ -6,7 +7,7 @@ int main(int argc, char const *argv[])
 	int val;
 	if(argc != 2)
 	{
-		printf("usage: a.out <descriptor#>");
+		printf("usage: a.out <descriptor#>\n");
 		return 0;
 	}
 
@@ -18,8 +19,11 @@ int main(int argc, char const *argv[])
 	switch(val & O_ACCMODE)
 	{
 		case O_RDONLY:
-			printf("read only");
+			RED
+			printf("\nread only\n");
+			END
 			break;
+
 
 		case O_WRONLY:
 			printf("write only");
